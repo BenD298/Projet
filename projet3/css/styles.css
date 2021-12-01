@@ -1,0 +1,162 @@
+body{
+    background-color: #15151e ;
+    color : white
+}
+
+/* Navigation */
+.logo_nav{
+        float: left;
+        display: flex;
+        align-items: flex-end;
+               
+    }
+.navigation ul{
+    list-style-type: none;
+    background-color: red;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+.navigation li{
+    float:left;
+           }
+.navigation li a{
+    color:white;
+    text-decoration: none;
+    display : block;
+    padding: 20px
+    
+}
+.navigation li a:hover{
+    background-color: rgb(230, 7, 52);
+}
+.active{
+    background-color: rgb(230, 7, 52);
+}
+.navigation{
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+/*Presentation*/
+.presentation{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: "90%";
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .slider{
+      width: 600px;
+      height: 500px;
+     overflow: hidden;
+      margin: 150px auto;
+  }
+  .slides{
+      width: calc(600px*7);
+      animation: glisse 20s infinite;
+  }
+  .slide{
+      float:left;
+  }
+  @keyframes glisse{
+    0%{
+        transform: translateX(0)
+      }
+    5%{
+        transform: translateX(0)
+    }
+    10%{
+        transform: translateX(-620px)
+    }
+    15%{
+        transform: translateX(-620px)
+    }
+    20%{
+        transform: translateX(-1230px)
+    }
+    25%{
+        transform: translateX(-1230px)
+    }
+    30%{
+        transform: translateX(-1840px)
+    }
+    35%{
+        transform: translateX(-1840px)
+    }
+    40%{
+        transform: translateX(-2450px)
+    }
+    45%{
+        transform: translateX(-2450px)
+    }
+    50%{
+        transform: translatex(-3060px)
+    }
+    55%{
+        transform: translatex(-3060px)
+    }
+    60%{
+        transform: translateX(0)
+    }
+  }
+/* Tableau */
+.table{
+    width: 80%;
+    margin: auto;
+    }
+.table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table table td{
+    height:30px;
+}
+.table table th, .table table td{
+    text-align: center ;
+    border: 1px solid black;
+}
+
+/* Copyright */
+.bas{
+    width: 100%;
+    bottom: 0%;
+    text-align: center;
+    background-color:gray;
+}
+/*Saison 2021*/
+.tablesaison{
+    border-collapse: collapse;
+}
+
+
+/*Videos*/
+.videos{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.gauche{
+    display: flex;
+    padding: 2%;
+}
+.centre{
+    display:flex;
+    padding: 2%;
+}
+.droite{
+    display:flex;
+    padding:2%
+}
+.tooltip
+{
+  text-decoration:none;
+  position:relative;
+}
+ 
